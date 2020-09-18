@@ -1,0 +1,262 @@
+/*
+ primary color: #ED810A
+*/
+
+/* Custom Owl */
+
+.testimonials {
+  position: relative;
+}
+.inner-testimonials .owl-dots {
+  display: none;
+}
+.custome_slide.owl-carousel .owl-item.active.center .main-reviewimage {
+  border: 2px solid #fff;
+}
+.main-reviewimage {
+  border-radius: 50%;
+  height: 310px;
+  width: 100%;
+  background: #000;
+}
+.main-reviewimage img {
+  opacity: 0.3;
+}
+#slide-testimonal .active.center .main-reviewimage img {
+  opacity: 1;
+}
+.test_img {
+  position: relative;
+  opacity: 1;
+  -webkit-transition: 0.4s ease all;
+  transition: 0.4s ease all;
+  margin: 0 -48px;
+  margin-top: 40px;
+}
+.inner-testimonials {
+  width: 100%;
+  max-width: 680px;
+  margin: 0 auto;
+}
+#slide-testimonal .center .test_img:before {
+  content: none;
+  transition: 0.7s ease-in-out;
+}
+.test_img img {
+  border-radius: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.custome_slide.owl-carousel .owl-item.active.center {
+  transform: scale(1.3);
+  margin-top: 0 !important;
+  position: relative;
+  z-index: 999;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+.custome_slide.owl-carousel .owl-item {
+  transform: scale(0.7);
+  padding: 10px 0px;
+  transition: all 0.5s;
+}
+.testimonial_detail {
+  text-align: center;
+}
+.testimonial_detail {
+  transform: scale(0.7) !important;
+  width: 447px;
+  position: relative;
+  left: -71px;
+}
+.testimonial_detail h4 {
+  font-size: 38px;
+  margin: 0;
+}
+.testimonial_detail p {
+  color: #ccc;
+  font-size: 26px;
+}
+.custome_slide.owl-carousel .active .testimonial_detail {
+  display: none;
+}
+.custome_slide.owl-carousel .active.center .testimonial_detail {
+  display: block !important;
+}
+
+/* End custom owl */
+#jumbo {
+  min-height: 100vh;
+}
+.headerlogo {
+  width: 100pt;
+}
+.jumbowrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.zerobtn {
+  padding: 10px 15px 10px 15px;
+  min-width: 200px;
+  background-color: transparent;
+  color: #ed810a;
+  border-radius: 30px;
+  border-color: #ed810a;
+  border-width: 2px;
+}
+#traction {
+  padding: 1em 0 1em 0;
+  background-color: #ed810a;
+}
+.videoprof {
+  display: block;
+
+  width: 50%;
+  margin: -7rem auto 15px auto;
+}
+.traction-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 75%;
+  margin: 15px 0 15px 0;
+  color: white;
+}
+.traction-box:hover {
+  border: 1px solid white;
+  border-radius: 15px;
+}
+#services {
+  padding: 2em 0 2em 0;
+}
+.services-title {
+  color: #ed810a;
+  font-weight: bold;
+}
+.services-center {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  height: 100%;
+}
+#wrapper {
+  width: 900px;
+  height: 400px;
+  margin: -200px 0 0 -450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#carousel img {
+  display: block;
+  float: left;
+  border: none;
+  position: relative;
+}
+.center-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+}
+.inputlogin {
+  width: 80%;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px rgba(121, 121, 121, 0.5);
+  margin-top: 1em;
+  margin-bottom: 1em;
+  height: 40px;
+  text-align: center;
+  transition: all 0.3s;
+}
+
+.inputlogin:focus {
+  outline: none;
+  box-shadow: 1px 1px 5px rgba(121, 121, 121, 0.9);
+}
+
+.loginbtn {
+  width: 80%;
+  padding: 10px 15px 10px 15px;
+  border: none;
+  background-color: #ed810a;
+  color: white;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px rgba(121, 121, 121, 0.5);
+  margin: 1em 0 1em 0;
+  transition: all 0.2s;
+}
+.loginbtn:hover {
+  background-color: #f19737;
+}
+.loginbtn:focus {
+  outline: none;
+}
+.signuptext {
+  color: #ed810a;
+}
+.signuptext:hover {
+  color: #ed810a;
+  outline-color: #ed810a;
+}
+.inputsignup {
+  width: 100%;
+  border: none;
+  border-bottom: 1.35px solid #ed810a;
+  margin: 0.75em 0 0.75em 0;
+  padding: 5px;
+  transition: all 0.3s ease-in-out;
+}
+.inputsignup:focus {
+  outline: none;
+  border-bottom: 1.35px solid #f8d1a6;
+}
+.proftpic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: block;
+  margin: auto;
+}
+#profile {
+  padding: 5em 0 2em 0;
+  min-height: 90vh;
+}
+.proftpic img {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  width: 100%;
+}
+.addformbtn {
+  background-color: #ed810a;
+  border: none;
+  border-radius: 30px;
+  box-shadow: 1px 1px 5px rgba(121, 121, 121, 0.5);
+  padding: 10px 15px 10px 15px;
+  color: white;
+  margin-bottom: 1em;
+}
+.addformbtn:focus {
+  outline: none;
+}
+.proftraction {
+  color: #ed810a;
+  text-align: center;
+  margin-top: 2em;
+}
+.proftable {
+  overflow-x: scroll;
+}
